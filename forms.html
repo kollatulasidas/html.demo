@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms in html</title>
+</head>
+<body>
+    <h2>Form In HTML</h2>
+    <form action="">
+       <label for="fname">First Name:</label>
+        <input id="fname" type="text" minlength="4" maxlength="10" required>
+        <label for="lname">Middel Name:</label>
+        <input id="lname" type="text" value="ko">
+        <label for="kname">Last Name:</label>
+        <input id="kname" type="text" disabled>
+        
+        <br/><br>
+        <label for="">age</label>
+        <input type="number">
+        <br><br>
+        <label for="">Email</label>
+        <input type="email">
+        <br><br>
+        <label for="">Date Of Join</label>
+        <input type="date">
+        <br><br>
+        <label for="">Passward</label>
+        <input type="password">
+
+        <p>Select Shirt Size : </p>
+        <input type="radio"name="selectsize"id="S"><label for="S">S size</label>
+        <input type="radio"name="selectsize"id="M" checked><label for="M">M size</label>
+        <input type="radio"name="selectsize"id="L"><label for="L">L size </label>
+
+        <br><br>
+        <label for="color">Please select your shirt color </label>
+        <input type="color">
+
+        <br><br>
+        <label for="paymantoption">Please select paymant option</label>
+        <select name="paymant" id="">paymantoption
+        <option value=""></option>
+        <option value="gpay">gpay</option>
+        <option value="phonepay">phonepay</option>
+        <option value="upi">upi</option>
+        </select>
+
+        <br><br>
+        <label for="cmt">Please proved your valuable feedback</label>
+        <!-- <input type="text"> -->
+         <textarea name="cmt" id="cmts" rows="" cols="100" placeholder="Please enter you comments..."></textarea>
+         <br><br>
+    <input type="reset">
+    <input type="submit">
+    </form>
+
+    
+</body>
+</html>
